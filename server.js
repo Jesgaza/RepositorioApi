@@ -23,7 +23,7 @@ app.post('/chatgpt', async (req, res) => {
             body: JSON.stringify({
                 model: "gpt-4o-mini",  
                 messages: [{ role: "user", content: userMessage }],  
-                max_tokens: 1000  
+                max_tokens: 1000,  
                 temperature: 0.7
             })
         });
