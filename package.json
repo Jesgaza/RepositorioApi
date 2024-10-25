@@ -1,0 +1,26 @@
+{
+  "name": "repositorioapi",
+  "version": "1.0.0",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesgaza/RepositorioApi.git"
+  },
+  "author": "API-Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesgaza/RepositorioApi/issues"
+  },
+  "homepage": "https://github.com/Jesgaza/RepositorioApi#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  }
+}
