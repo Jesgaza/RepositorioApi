@@ -9,15 +9,14 @@
 </head>
 <body>
     <header>
-        <div class="header-left">
-            <h1>NEBUL</h1>
-            <p class="by-nebula-tech">By Nebula Tech AI</p>
-            <p class="legend">Nebul es una Inteligencia Artificial de uso exclusivo de la empresa Nebula Tech AI.</p>
+        <div class="header-content">
+             <p class="main-title">NEBUL <span class="sub-title">By Nebula Tech AI</span></p>
+              <p class="legend">Asistente Sintético - Uso exclusivo de miembros de Nebula Tech</p>
         </div>
         <div class="header-right">
-            <img src="C:\Users\Jesus\OneDrive\Escritorio\pagina nebul\img\png-transparent-setting-gear-configuration-cogwheel-settings-cog-3d-icon-thumbnail.png" alt="Ajustes" class="icon">
-            <img src="C:\Users\Jesus\OneDrive\Escritorio\pagina nebul\img\gratis-png-iphone-7-tecnologia-de-empuje-iconos-de-computadora-de-servicio-de-notificacion-de-apple-push-instantaneo-thumbnail.png" alt="Notificaciones" class="icon">
-            <img src="C:\Users\Jesus\OneDrive\Escritorio\pagina nebul\img\4052093-middle.png" alt="Conectarse/Desconectarse" class="icon">
+            <img src="img/setting-icon.png" alt="Ajustes" class="icon">
+            <img src="img/notification-icon.png" alt="Notificaciones" class="icon">
+            <img src="img/connect-icon.png" alt="Conectarse/Desconectarse" class="icon">
         </div>
     </header>
     <div class="container">
@@ -27,6 +26,8 @@
                 <li><span class="asterisk green">*</span> Mauricio</li>
                 <li><span class="asterisk orange">*</span> Enrique</li>
                 <li><span class="asterisk yellow">*</span> Fernando</li>
+                <li><span class="asterisk red">*</span> Jesús</li>
+
              </ul>
             <h2>Historial</h2>
             <ul id="history">
@@ -37,7 +38,7 @@
             <h2>Fuentes</h2>
             <img src="images/source-icon.png" alt="Fuentes" class="icon-small">
         </aside>
-        <main class="main-panel" >
+        <main class="main-panel">
             <div class="security-level">
                 <h3>Nivel de Seguridad del Usuario: Alto</h3>
             </div>
@@ -80,6 +81,6 @@
         <p>&copy; 2024 Nebula Tech. Todos los derechos reservados.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="C:/Users/Jesus/OneDrive/Documentos/Escritorio/pagina nebul/public/chat.js"></script>
+    <script src="public/chat.js"></script>
 </body>
 </html>
